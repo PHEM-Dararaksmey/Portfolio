@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phem Dararaksmey Portfolio</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/muit-madie.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class = "logo">PHEM Dararaksmey</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#experience">Exprience</a></li>
+                <li><a href="#poject">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class = "logo">PHEM Dararaksmey</div>
+        <div class = hamburger-menu>
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About me</a></li>
+                    <li><a href="#experience"onclick="toggleMenu()">Exprience</a></li>
+                    <li><a href="#poject"onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id = "profile">
+        <div class="section__pic-container">
+            <img src="../Media/profile.jpg" alt="PHEM Dararaksmey profile image">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello , I'm </p>
+            <h1 class="title">PHEM Dararaksmey</h1>
+            <p class="section__text__p1">Software Developer</p>
+        </div>
+        <div class="btn-container">
+            <button class="btn Download-cv "onclick="window.open('../Media/PHEM Dararaksmey CV.pdf')">Download CV</button>
+            <button class="btn Contact-me "onclick="window.open('#contact')">Contact Me</button>
+            <div id="socials-container">
+                <img src="../Media/linkin-icon.png" alt="My linkin profile" class="icon" onclick="location.href ='https://www.linkedin.com/'">
+
+            </div>
+        </div>
+    </section>
+    <!-- video time : 48:30 -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
